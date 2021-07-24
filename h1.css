@@ -1,0 +1,99 @@
+body{
+    font-family: georgia;
+
+}
+#header-nav{
+    background-color: ivory;
+    border-radius: 0;
+    border:0;
+    
+}
+.navbar-brand {
+    padding-top: 25px;
+}
+.hometiles{
+height: auto;
+}
+
+.navbar-brand h1 { 
+    font-family: georgia;
+    color: olive;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: unset;
+    
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: 0.75px;
+  }
+  .navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+  }
+
+  #nav-list a{
+      color: rosybrown;
+      text-align: center;
+  }
+
+  #nav-list a:hover {
+      background-color: darkblue;
+  }
+
+  .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid beige;
+  }
+  .navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -30px;
+  }
+
+ 
+
+  #chicken-tile, #beef-tile, #shusi-tile {
+    height:auto;
+    width: 100%;
+    margin-bottom: 15px;
+    position: relative;
+    border: 2px solid #3F0C1F;
+    overflow: hidden;
+    background-color: #d7cec7;
+     
+  }
+  #chicken-tile p, #beef-tile p, #shusi-tile p{
+   margin-top: 30px;
+   color: #565656;
+  }
+  #chicken-tile span, #beef-tile span, #shusi-tile span {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    color: #76323F;
+    text-align: center;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    
+    
+  }
+  
+
+  
+  @media (max-width:767px) {
+      .navbar-brand{
+          padding-top: 10px;
+          height: 80px;
+      }
+
+      .navbar-brand h1 {
+          padding-top: 10px;
+          font-size: 5vw;
+      }
+      #collapsable-nav a {
+          font-size: 1.2em;
+      }
+
+      #collapsable-nav {
+          background-color: white;
+      }
+      
+  }
